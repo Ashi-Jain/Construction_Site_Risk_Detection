@@ -17,8 +17,7 @@ from utils import label_map_util
 from utils import visualization_utils as vis_util
 from keras.preprocessing import image
 from keras_preprocessing.image import ImageDataGenerator
-from pathlib import Path
-
+import pathlib2 as Path
 
 tf.executing_eagerly() #implemented by default in tensorflow2
 
