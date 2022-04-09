@@ -16,6 +16,6 @@ These 4 classes are:
 - without_helmet
 
 The dataset has been taken out from various sources like kaggle, Open Images etc.
-The annotation of the dataset is being performed on MakeSense tool.
+The annotation of the dataset is being performed on MakeSense tool in XML format.
 
 ---
