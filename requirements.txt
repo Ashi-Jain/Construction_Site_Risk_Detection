@@ -1,10 +1,9 @@
 opencv-contrib-python-headless
 tensorflow-cpu==2.8.0
-streamlit==0.65.2
+streamlit==1.8.1
 numpy
 pandas
 pillow
-keras==2.3.0
-
+keras==2.8.0
 matplotlib
 python-resize-image
