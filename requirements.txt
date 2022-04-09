@@ -5,5 +5,6 @@ numpy
 pandas
 pillow
 keras==2.8.0
+pathlib==1.0.1
 matplotlib
 python-resize-image
