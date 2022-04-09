@@ -35,5 +35,5 @@ The annotation of the dataset is being performed on MakeSense tool in XML format
 2. Command for running app 
 
 ```
-	streamlit run app.py
+   streamlit run app.py
 ```
