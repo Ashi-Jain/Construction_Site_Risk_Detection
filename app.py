@@ -23,14 +23,14 @@ from pathlib import Path
 tf.executing_eagerly() #implemented by default in tensorflow2
 
 
-MODEL_NAME = 'C:/ASHI/AMITY/streamlit-ssd-deploy/object_detection/inference_graph'
-IMAGE_NAME = 'C:/ASHI/AMITY/streamlit-ssd-deploy/images/out.jpg'
+MODEL_NAME = 'https://github.com/Ashi-Jain/Construction_Site_Risk_Detection/tree/main/object_detection/inference_graph'
+IMAGE_NAME = 'https://github.com/Ashi-Jain/Construction_Site_Risk_Detection/blob/main/images/out.jpg'
 
 CWD_PATH = os.getcwd()
 
-PATH_TO_CKPT = os.path.join('C:/ASHI/AMITY/streamlit-ssd-deploy/object_detection/inference_graph/frozen_inference_graph.pb')
-PATH_TO_LABELS = os.path.join('C:/ASHI/AMITY/streamlit-ssd-deploy/object_detection/label_map.pbtxt')
-PATH_TO_IMAGE = os.path.join('C:/ASHI/streamlit_object_detection/ssd_deploy/images/out.jpg')
+PATH_TO_CKPT = os.path.join('https://github.com/Ashi-Jain/Construction_Site_Risk_Detection/blob/main/object_detection/inference_graph/frozen_inference_graph.pb')
+PATH_TO_LABELS = os.path.join('https://github.com/Ashi-Jain/Construction_Site_Risk_Detection/blob/main/object_detection/label_map.pbtxt')
+PATH_TO_IMAGE = os.path.join('https://github.com/Ashi-Jain/Construction_Site_Risk_Detection/blob/main/images/out.jpg')
 
 NUM_CLASSES = 6
 
@@ -107,7 +107,7 @@ def main():
     
     if choice =='About':
         
-        intro_markdown = read_markdown_file("C:/ASHI/AMITY/streamlit-ssd-deploy/doc/about.md")
+        intro_markdown = read_markdown_file("https://github.com/Ashi-Jain/Construction_Site_Risk_Detection/blob/main/doc/about.md")
         st.markdown(intro_markdown, unsafe_allow_html=True)
         
     elif choice == 'Risk Detection':
@@ -117,7 +117,7 @@ def main():
         
         if image_file is not None:
             our_image = Image.open(image_file)
-            im = our_image.save('C:/ASHI/streamlit_object_detection/ssd_deploy/images/out.jpg')
+            im = our_image.save('https://github.com/Ashi-Jain/Construction_Site_Risk_Detection/blob/main/images/out.jpg')
             
             if st.button('Detect'):
                 st.image(in_image , use_column_width=True,channels='RGB')
