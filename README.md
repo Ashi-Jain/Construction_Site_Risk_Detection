@@ -19,3 +19,21 @@ The dataset has been taken out from various sources like kaggle, Open Images etc
 The annotation of the dataset is being performed on MakeSense tool in XML format.
 
 ---
+
+
+## How to run this project? 
+ 
+  1. clone this repository
+ ```
+	git clone https://github.com/Ashi-Jain/Construction_Site_Risk_Detection
+```
+ 
+ 1. Install the required dependencies 
+ ```
+	pip install -r requirements.txt 
+```
+2. Command for running app 
+
+```
+	streamlit run app.py
+```
