@@ -28,7 +28,7 @@ IMAGE_NAME = './object_detection/images/out.jpg'
 CWD_PATH = os.getcwd()
 
 PATH_TO_CKPT = os.path.join('./object_detection/inference_graph/frozen_inference_graph.pb')
-PATH_TO_LABELS = os.path.join('./object_detection/training/label_map.pbtxt')
+PATH_TO_LABELS = os.path.join('./object_detection/label_map.pbtxt')
 PATH_TO_IMAGE = os.path.join('./object_detection/images/out.jpg')
 
 NUM_CLASSES = 6
